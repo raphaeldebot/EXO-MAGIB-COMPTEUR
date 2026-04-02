@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compteur </title>
+    <link rel="stylesheet" href="compteur.css">
 </head>
+
 <body>
-    <h1></h1>
-    <button id="+">+</button>
-    <button id="-">-</button>
-    <button id="reset">Reset</button>
-<script src="compteur.js"></script>
+    <div class="compteur-box">
+        <h1 id="compteur">Cliquer</h1>
+        <div>
+            <button class="rouge" id="+">+</button>
+            <button class="jaune" id="-">-</button>
+        </div>
+        <button class="vert" id="reset">Reset</button>
+        <script src="compteur.js"></script>
+    </div>
 </body>
 
 </html>
